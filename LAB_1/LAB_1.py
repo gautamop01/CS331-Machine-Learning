@@ -1,6 +1,6 @@
 # Gautam Kumar Mahar 
 # 2103114 
-
+# Machine Learning LAB 1
 #------------------
 
 import numpy as np
@@ -30,7 +30,7 @@ dL_db = np.sum(predicted_output - target_output) / input_data.shape[0]
 
 
 h = 0.001
-weights -= h # reduce a Miner(0.001) value from each weight 
+weights[2] -= h # reduce a Miner(0.001) value from each weight 
 
 predicted_output = np.dot(input_data, weights) + bias
 #  (y' - y)**2  / N;
@@ -55,8 +55,8 @@ print("Backward Pass Loss:", backward_pass_loss)
 print("Gradient of weights:\n", dL_dw)
 print("New Gradient of weight \n", (forward_pass_loss - new_forward_pass_loss) / h )
 print("Gradient of bias:", dL_db)
-print("New Gradient of bias:",  (dL_db - New_dL_db))
-# print("New NGradient of bias:", (  New_dL_db -dL_db) / h)
+# print("New Gradient of bias:",  (New_dL_db - dL_db  ))
+print("New NGradient of bias:", (  New_dL_db -dL_db) / h)
 
 
 
