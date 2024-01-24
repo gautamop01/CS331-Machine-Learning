@@ -1,0 +1,11 @@
+Choose Y = ax + b + N(0,1)  # Choose Noise which have mean = 0 and variance 1 
+X = U[0,10] # this U is uniform 
+S_n = {(xi, yi)}^n_i=1    # n = 0.01
+
+this a just learning model so implement this thing in python 
+
+after finding this do forward pass and backward pass and then compare waights 
+
+x + [w] = b = L # L loss and b Bais 
+
+Now make a perceptron , using Scipy Make Blobs , this is next question of this lab 
