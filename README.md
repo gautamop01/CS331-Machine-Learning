@@ -1,7 +1,7 @@
 # CS331-Machine-Learning
 
 # LAB 1
-Make Forward and Backward Pass 
+Forward and Backward Pass and after that do comparison 
 
 # LAB 2
 1) Choose Y = ax + b + N(0,1)  # Choose Noise which have mean = 0 and variance 1 
