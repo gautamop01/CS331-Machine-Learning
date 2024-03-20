@@ -1,0 +1,3 @@
+IN book, these is a exercise called
+Apply Binary Classification and EM On Handwritten Dataset 
+and using clusters -> predict the digit 
