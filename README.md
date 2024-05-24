@@ -9,4 +9,10 @@ X = U[0,10] # this U is uniform
 S_n = {(xi, yi)}^n_i=1    # n = 0.01
 
 2) BONUS PROBLEM
-Make a perceptron , using Scipy Make Blobs , this is Bonus question of this lab 
+Make a perceptron , using Scipy Make Blobs , this is Bonus question of this lab
+
+# LAB 3
+# LAB 4
+# LAB 5
+# LAB 6
+# LAB 7
